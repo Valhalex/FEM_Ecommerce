@@ -7,11 +7,10 @@ const Navbar = ({ cartMenuOpen, setCartMenuOpen }, {avatarMenuOpen, setAvatarMen
   // handle menu, we don't want 2 menu's open at the same time
   //if cart is active, disable avatar. Vice Versa.
 
-  //search database if there is items in the users cart, display a number
-  //over the cart
+ 
   return (
     <div className="nav">
-      <div className='hamburger'>
+      <div className='hamburger' >
         <span className="top"></span>
         <span className="mid"></span>
         <span className="bottom" ></span>

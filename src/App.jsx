@@ -10,12 +10,14 @@ function App() {
   // control the state if a menu should be opened for our shopping cart
   const [cartMenuOpen,setCartMenuOpen] = useState(false);
   const [avatarMenuOpen,setAvatarMenuOpen] = useState(false);
+  const [navMenuOpen,setNavMenuOpen] = useState(false);
 
 
   return (
     <div className="App">
       <Navbar cartMenuOpen={cartMenuOpen} setCartMenuOpen={setCartMenuOpen}
       avatarMenuOpen={avatarMenuOpen} setAvatarMenuOpen={setAvatarMenuOpen}
+      navMenuOpen={navMenuOpen} setNavMenuOpen={setNavMenuOpen}
       />
       {/* add state to cart and avatar so we can change it's style to visible */}
       <Cart cartMenuOpen={cartMenuOpen} setCartMenuOpen={setCartMenuOpen}/>

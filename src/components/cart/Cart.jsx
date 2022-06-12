@@ -59,7 +59,7 @@ const Cart = ({ cartMenuOpen, setCartMenuOpen }) => {
                         
                 }
             </div>
-            <div className="checkout">checkout</div>
+            
         </div>
     )
 }
